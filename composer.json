@@ -1,0 +1,27 @@
+{
+    "name": "imphinite/eventbrite",
+    "description": "This is a Laravel package for Eventbrite Web Services API",
+    "type": "laravel",
+    "version": "0.0.0",
+    "keywords": [
+        "Eventbrite",
+        "Eventbrite web services api",
+        "events api"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yan Lin Wang",
+            "email": "charles.w.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"illuminate/support": "5.*"
+    },
+	"autoload": {
+		"psr-4": {
+			"Eventbrite\\": "src/"
+		}
+	}
+}

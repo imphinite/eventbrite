@@ -313,8 +313,6 @@ class WebService
         $this->verifySSL = empty(config('eventbrite.ssl_verify_peer')) 
                         ? FALSE
                         : config('eventbrite.ssl_verify_peer');
-
-        $this->clearParameters();
     }
     
     /**
@@ -442,10 +440,5 @@ class WebService
 
         curl_close($ch);
         return $output;
-    }
-
-    protected function clearParameters()
-    {
-        Parameters::resetParams();
     }
 }

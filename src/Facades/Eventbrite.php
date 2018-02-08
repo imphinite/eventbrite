@@ -1,13 +1,13 @@
 <?php
 
-namespace Eventbrite\Facade;
+namespace Eventbrite\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * @see \Illuminate\Html\HtmlBuilder
  */
-class EventbriteFacade extends Facade 
+class Eventbrite extends Facade 
 {
     /**
      * Get the registered name of the component.
